@@ -1,0 +1,1334 @@
+/* Begin of style */
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Dekstop / Laptop View Begin, dan sebagai kode untuk kondisi global*/
+
+/* Navbar-fixed Begin*/
+
+nav.navbar-fixed {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #6fc8ff;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9000;
+}
+
+.container-logo-garis-batas-features {
+  height: 60px;
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-logo-garis-batas-features .container-logo-garis-batas {
+  height: 60px;
+  width: 48%;
+  margin: 0 0 0 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-logo-garis-batas .logoTokoBuUmi {
+  width: 100%;
+  height: 45px;
+}
+
+.container-logo-garis-batas .garis-batas-logo {
+  height: 45px;
+  border-left: 2px solid #e3e3e3;
+  margin: 0 0 0 7%;
+}
+
+.container-logo-garis-batas-features .container-product-event-help {
+  height: 60px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-logo-garis-batas-features .not-display-icon-in-dekstop-and-tablet {
+  display: none;
+}
+
+.container-product-event-help a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 3px;
+  color: #d9f2fe;
+}
+
+.container-product-event-help a:hover {
+  color: #ffffff;
+  font-size: 20.3px;
+}
+
+.container-search-icon-shopping-basket-icon-account-icon {
+  height: 60px;
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-search-icon {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.container-search-icon .search-icon {
+  height: 32px;
+  width: 32px;
+  background-image: url(../Resource/gambar_character/search_blue_36dp.svg);
+  background-repeat: no-repeat;
+}
+
+.container-search-icon .search-icon:hover {
+  height: 32px;
+  height: 32px;
+  background-image: url(../Resource/gambar_character/search_white_36dp.svg);
+  background-repeat: no-repeat;
+  transform: scale(1);
+}
+
+.container-shopping-basket-icon {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.container-shopping-basket-icon .shopping-basket-icon {
+  height: 32px;
+  width: 32px;
+  background-image: url(../Resource/gambar_character/shopping_basket_blue_36dp.svg);
+  background-repeat: no-repeat;
+}
+
+.container-shopping-basket-icon .shopping-basket-icon:hover {
+  height: 32px;
+  width: 32px;
+  background-image: url(../Resource/gambar_character/shopping_basket_white_36dp.svg);
+  background-repeat: no-repeat;
+  transform: scale(1.05);
+}
+
+.container-account-icon {
+  height: 32px;
+  width: 32px;
+  margin: 0 0 0 2.5%;
+  cursor: pointer;
+}
+
+.container-account-icon .account-icon {
+  height: 32px;
+  width: 32px;
+  background-image: url(../Resource/gambar_character/account_circle_blue_36dp.svg);
+  background-repeat: no-repeat;
+}
+
+.container-account-icon .account-icon:hover {
+  height: 32px;
+  width: 32px;
+  background-image: url(../Resource/gambar_character/account_circle_white_36dp.svg);
+  background-repeat: no-repeat;
+  transform: scale(1.05);
+}
+
+.navbar-fixed .humberger-menu {
+  display: none;
+}
+
+/* Navbar-fixed End */
+
+/* Main Begin */
+
+main .container-all {
+  width: 100%;
+}
+
+/* Main - Header */
+
+.container-all .header {
+  width: 100%;
+  border-bottom: 5px solid #9bd7fb;
+}
+
+.container-gambar-slide-1 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-gambar-slide-1 .gambar-slide-1 {
+  margin: 3% 0 0 0;
+  width: 100%;
+}
+
+.container-gambar-slide-2 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-gambar-slide-2 .gambar-slide-2 {
+  margin: 3% 0 0 0;
+  width: 100%;
+}
+
+.container-gambar-slide-3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-gambar-slide-3 .gambar-slide-3 {
+  margin: -3% 0 0 0;
+  width: 100%;
+}
+
+/* Main - Product */
+
+.container-all .product {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.product .container-product {
+  width: 95%;
+  min-height: 500px;
+  margin: 5% 0 10% 0;
+  border-bottom: 5px solid white;
+  background-color: #bae5ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-product .container-product-title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.container-product-title .product-title {
+  color: black;
+  font-size: 40px;
+  margin: auto;
+}
+
+.container-product-type {
+  width: 100%;
+  min-height: 400px;
+}
+
+.container-product-type-title {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-product-type a {
+  text-decoration: none;
+}
+
+a .product-type-title {
+  color: black;
+}
+
+.container-product-type-title a:hover .product-type-title {
+  border-bottom: 3px solid #87cefa;
+}
+
+.container-product-type .container-tombol-panah-dan-product-items {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.container-tombol-panah-dan-product-items .tombol-panah-kiri-product {
+  width: 43px;
+  height: 43px;
+  background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-tombol-panah-dan-product-items .product-type-items {
+  width: 100%;
+  min-height: 350px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-type-items ul {
+  width: 35%;
+  height: 300px;
+  margin: 5px 12px;
+  box-sizing: border-box;
+}
+
+.product-type-items ul img {
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid skyblue;
+}
+
+.badan-card h4 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.badan-card p {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-tombol-panah-dan-product-items .tombol-panah-kanan-product {
+  width: 43px;
+  height: 43px;
+  background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Main - Event */
+
+.container-all .event {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.event .container-event {
+  width: 95%;
+  min-height: 500px;
+  margin: 5% 0 5% 0;
+  border-bottom: 5px solid white;
+  background-color: #bae5ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-event .container-event-title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.container-event-title .event-title {
+  color: black;
+  font-size: 40px;
+  margin: auto;
+}
+
+.container-event-type {
+  width: 100%;
+  min-height: 400px;
+}
+
+.container-event-type-title {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-event-type a {
+  text-decoration: none;
+}
+
+a .event-type-title {
+  color: black;
+}
+
+.container-event-type-title a:hover .event-type-title {
+  border-bottom: 3px solid #87cefa;
+}
+
+.container-event-type .container-tombol-panah-dan-event-items {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.container-tombol-panah-dan-event-items .tombol-panah-kiri-event {
+  width: 43px;
+  height: 43px;
+  background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-tombol-panah-dan-event-items .event-type-items {
+  width: 100%;
+  min-height: 350px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.event-type-items ul {
+  width: 35%;
+  height: 300px;
+  margin: 5px 12px;
+  box-sizing: border-box;
+}
+
+.event-type-items ul img {
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid skyblue;
+}
+
+.badan-card h4 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.badan-card p {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.badan-card p.harga-satu {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2.9px;
+}
+
+.container-tombol-panah-dan-event-items .tombol-panah-kanan-event {
+  width: 43px;
+  height: 43px;
+  background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Main End */
+
+/* Footer Begin*/
+
+footer .container-footer {
+  width: 100%;
+  height: 20vh;
+  margin: 10% 0 0 0;
+  background-color: #9bd7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer .container-text-copyright-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text-copyright-footer p.text-copyright-footer {
+  font-size: 27px;
+  position: relative;
+}
+
+p.text-copyright-footer img.copyright-logo {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: -30px;
+}
+
+/* Footer End */
+
+/* Dekstop / Laptop View End */
+
+/* Ipad View Begin */
+
+@media screen and (max-width: 900px) {
+}
+
+/* Ipad View End */
+
+/* Tablet View Begin*/
+
+@media screen and (max-width: 768px) {
+  /* Navbar-fixed Begin */
+  .navbar-fixed .container-logo-garis-batas-features {
+    width: 60%;
+  }
+
+  .container-logo-garis-batas-features .container-logo-garis-batas {
+    width: 60%;
+    margin: 0 0 0 1.5%;
+  }
+
+  .container-logo-garis-batas .garis-batas-logo {
+    margin: 0 0 0 5%;
+  }
+
+  .container-logo-garis-batas-features .container-product-event-help {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .container-logo-garis-batas-features .not-display-icon-in-dekstop-and-tablet {
+    display: none;
+  }
+
+  .navbar-fixed .container-search-icon-shopping-basket-icon-account-icon {
+    width: 21.5%;
+  }
+
+  .humberger-menu {
+    display: none;
+  }
+
+  /* Navbar - Fixed End */
+
+  /* Main Begin */
+
+  /* Main - Header */
+
+  main .container-all {
+    width: 100%;
+    background-color: #d9f2fe;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-all .header {
+    width: 100%;
+    border-bottom: 5px solid #9bd7fb;
+  }
+
+  .header-slide {
+    width: 100%;
+    height: 67.5vh;
+  }
+
+  .container-gambar-slide-1 {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .container-gambar-slide-1 .gambar-slide-1 {
+    margin: 7% 0 0 0;
+    width: 100%;
+  }
+
+  .container-gambar-slide-2 {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .container-gambar-slide-2 .gambar-slide-2 {
+    margin: 7% 0 0 0;
+  }
+
+  .container-gambar-slide-3 {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container-gambar-slide-3 .gambar-slide-3 {
+    margin: 7% 0 0 0;
+    width: 100%;
+  }
+
+  .header button.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 67px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+
+  /* Main - Product */
+
+  .container-all .product {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .product .container-product {
+    width: 90%;
+    height: 500px;
+    margin: 10% 0 50% 0;
+    border-bottom: 5px solid white;
+    background-color: #edfbff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-product .container-product-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .container-product-title .product-title {
+    color: black;
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .container-product-type {
+    width: 100%;
+    height: 400px;
+  }
+
+  .container-product-type-title {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-product-type a {
+    text-decoration: none;
+  }
+
+  a .product-type-title {
+    color: black;
+  }
+
+  .container-product-type-title a:hover .product-type-title {
+    border-bottom: 3px solid #87cefa;
+  }
+
+  .container-product-type .container-tombol-panah-dan-product-items {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container-tombol-panah-dan-product-items .tombol-panah-kiri-product {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-tombol-panah-dan-product-items .product-type-items {
+    width: 80%;
+    min-height: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .product-type-items ul {
+    width: 35%;
+    height: 300px;
+    margin: 20px 5px;
+    box-sizing: border-box;
+  }
+
+  .product-type-items ul img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 2px solid skyblue;
+  }
+
+  .badan-card h4 {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .badan-card p {
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+  .container-tombol-panah-dan-product-items .tombol-panah-kanan-product {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Main - Event */
+
+  .container-all .event {
+    display: flex;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .event .container-event {
+    width: 90%;
+    height: 500px;
+    margin: 10% 0 50% 0;
+    border-bottom: 5px solid white;
+    background-color: #edfbff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-event .container-event-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .container-event-title .event-title {
+    color: black;
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .container-event-type {
+    width: 100%;
+    height: 400px;
+  }
+
+  .container-event-type-title {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-event-type a {
+    text-decoration: none;
+  }
+
+  a .event-type-title {
+    color: black;
+  }
+
+  .container-event-type-title a:hover .event-type-title {
+    border-bottom: 3px solid #87cefa;
+  }
+
+  .container-event-type .container-tombol-panah-dan-event-items {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container-tombol-panah-dan-event-items .tombol-panah-kiri-event {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-tombol-panah-dan-event-items .event-type-items {
+    width: 80%;
+    min-height: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .event-type-items ul {
+    width: 35%;
+    height: 300px;
+    margin: 20px 5px;
+    box-sizing: border-box;
+  }
+
+  .event-type-items ul img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 2px solid skyblue;
+  }
+
+  .badan-card h4 {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .badan-card p {
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+  .badan-card p.harga-satu {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2.9px;
+  }
+
+  .container-tombol-panah-dan-event-items .tombol-panah-kanan-event {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* Main End */
+
+/* Footer Begin*/
+
+footer .container-footer {
+  width: 100%;
+  height: 13vh;
+  margin: 10% 0 0 0;
+  background-color: #9bd7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer .container-text-copyright-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text-copyright-footer p.text-copyright-footer {
+  font-size: 23px;
+  position: relative;
+}
+
+p.text-copyright-footer img.copyright-logo {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: -30px;
+}
+
+/* Footer End */
+
+/* Tablet View End */
+
+/* Handphone View Begin */
+
+@media screen and (max-width: 576px) {
+  /* Navbar Begin */
+  .navbar-fixed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar-fixed .container-logo-garis-batas-features {
+    width: 73%;
+  }
+
+  .container-logo-garis-batas-features .container-logo-garis-batas {
+    width: 65%;
+    margin: 0 0 0 0;
+  }
+
+  .container-logo-garis-batas .garis-batas-logo {
+    margin: 0 0 0 0;
+    display: none;
+  }
+
+  .container-logo-garis-batas-features .container-product-event-help {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    background-color: #6fc8ff;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    z-index: -9999;
+    transform: translate(100%, 0);
+    transition: all 1s;
+    opacity: 0;
+  }
+
+  .container-logo-garis-batas-features ul.slide {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  .container-product-event-help li:nth-child(1) {
+    order: 2;
+    margin: -8% 0 0 0;
+  }
+
+  .container-product-event-help li:nth-child(2) {
+    order: 3;
+  }
+
+  .container-product-event-help li:nth-child(3) {
+    order: 4;
+  }
+
+  .container-product-event-help li:nth-child(4) {
+    order: 1;
+    width: 100%;
+    height: 20%;
+    margin: -10% 0 0 0;
+    border-bottom: 5px solid #a9deff;
+    box-sizing: border-box;
+    padding: 0 33%;
+  }
+
+  .container-product-event-help .not-display-icon-in-dekstop-and-tablet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+
+  .container-account-icon .account-icon {
+    transform: scale(1.7);
+  }
+
+  .container-account-icon .account-icon:hover {
+    transform: scale(1.8);
+  }
+
+  .navbar-fixed .container-search-icon-shopping-basket-icon-account-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+  }
+
+  .container-search-icon-shopping-basket-icon-account-icon .not-display-icon-in-mobile {
+    display: none;
+  }
+
+  .navbar-fixed .humberger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .humberger-menu input {
+    position: absolute;
+    width: 45px;
+    height: 29px;
+    top: -4.6px;
+    left: -8.25px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 9002;
+  }
+
+  .humberger-menu span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #d9f2fe;
+    border-radius: 3px;
+    transition: all 500ms;
+  }
+
+  /* Humberger Menu Animation */
+
+  /* Span pertama */
+  .humberger-menu span:nth-child(2) {
+    /* properti untuk merubah poros */
+    transform-origin: 0 0;
+  }
+
+  /* Mentarget span pertama dengan teknik siblings */
+  .humberger-menu input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+    background-color: #fff;
+  }
+
+  /* Span ketiga */
+  .humberger-menu span:last-child {
+    /* properti untuk merubah poros */
+    transform-origin: 0 100%;
+  }
+
+  /* Mentarget span ketiga dengan teknik siblings */
+  .humberger-menu input:checked ~ span:last-child {
+    transform: rotate(-45deg) translate(0, 1px);
+    background-color: #fff;
+  }
+
+  /* Span kedua */
+  /* Mentarget span kedua dengan teknik siblings */
+  .humberger-menu input:checked ~ span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  /* NavBar - Fixed End */
+
+  /* Main Begin */
+
+  /* Main - Header */
+
+  main .container-all {
+    width: 100%;
+    background-color: #d9f2fe;
+  }
+
+  .container-all .header {
+    width: 100%;
+    border-bottom: 5px solid #9bd7fb;
+  }
+
+  .header-slide {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .container-gambar-slide-1 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .container-gambar-slide-1 .gambar-slide-1 {
+    margin: 8% 0 0 0;
+    width: 100%;
+  }
+
+  .container-gambar-slide-2 {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .container-gambar-slide-2 .gambar-slide-2 {
+    margin: 8.01% 0 0 0;
+    width: 100%;
+  }
+
+  .container-gambar-slide-3 {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .container-gambar-slide-3 .gambar-slide-3 {
+    margin: 6% 0 0 0;
+    width: 100%;
+  }
+
+  .header .button-kiri {
+    display: none;
+  }
+
+  .header button.carousel-control-next {
+    display: none;
+  }
+
+  /* Main - Product */
+
+  .container-all .product {
+    display: flex;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .product .container-product {
+    width: 95%;
+    min-height: 500px;
+    margin: 10% 0 40rem 0;
+    border-bottom: 5px solid white;
+    background-color: #bae5ff;
+  }
+
+  .container-product .container-product-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .container-product-title .product-title {
+    color: black;
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .container-product-type {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container-product-type-title {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-product-type a {
+    text-decoration: none;
+  }
+
+  a .product-type-title {
+    color: black;
+  }
+
+  .container-product-type-title a:hover .product-type-title {
+    border-bottom: 3px solid #87cefa;
+  }
+
+  .container-product-type .container-tombol-panah-dan-product-items {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .container-tombol-panah-dan-product-items .tombol-panah-kiri-product {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+  }
+
+  .container-tombol-panah-dan-product-items .product-type-items {
+    width: 100%;
+    min-height: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .product-type-items ul {
+    width: 75%;
+    height: 300px;
+    margin: 15px;
+  }
+
+  .product-type-items ul img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 2px solid skyblue;
+  }
+
+  .badan-card h4 {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .badan-card p {
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+  .container-tombol-panah-dan-product-items .tombol-panah-kanan-product {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+  }
+
+  /* Event */
+
+  .container-all .event {
+    display: flex;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .event .container-event {
+    width: 95%;
+    min-height: 500px;
+    margin: 10% 0 43rem 0;
+    border-bottom: 5px solid white;
+    background-color: #bae5ff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-event .container-event-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .container-event-title .event-title {
+    color: black;
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .container-event-type {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container-event-type-title {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-event-type a {
+    text-decoration: none;
+  }
+
+  a .event-type-title {
+    color: black;
+  }
+
+  .container-event-type-title a:hover .event-type-title {
+    border-bottom: 3px solid #87cefa;
+  }
+
+  .container-event-type .container-tombol-panah-dan-event-items {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .container-tombol-panah-dan-event-items .tombol-panah-kiri-event {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-left-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+  }
+
+  .container-tombol-panah-dan-event-items .event-type-items {
+    width: 100%;
+    min-height: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .event-type-items ul {
+    width: 75%;
+    height: 300px;
+    margin: 15px;
+  }
+
+  .event-type-items ul img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 2px solid skyblue;
+  }
+
+  .badan-card h4 {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .badan-card p {
+    text-align: center;
+    line-height: 1.9;
+    font-weight: bold;
+  }
+
+  .badan-card p.harga-satu {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2.9px;
+  }
+
+  .container-tombol-panah-dan-event-items .tombol-panah-kanan-event {
+    width: 43px;
+    height: 43px;
+    background-image: url(../Resource/gambar_character/arrow-right-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+  }
+
+  /* Main End */
+
+  /* Footer Begin*/
+
+  footer .container-footer {
+    width: 100%;
+    height: 13vh;
+    margin: 10% 0 0 0;
+    background-color: #9bd7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-footer .container-text-copyright-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-text-copyright-footer p.text-copyright-footer {
+    font-size: 23px;
+    position: relative;
+  }
+
+  p.text-copyright-footer img.copyright-logo {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: -30px;
+  }
+
+  /* Footer End */
+}
+
+/* Handphone View End */
