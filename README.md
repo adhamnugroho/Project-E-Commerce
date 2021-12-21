@@ -12,5 +12,6 @@ A. Cara menjalankan main page website
 3. Jalankan di browser kesayangan anda.
 
 
-#License
+B.License
+
 Layout ini sudah berlisensi dari toko bu umi
